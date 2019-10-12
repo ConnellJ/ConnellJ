@@ -1,0 +1,54 @@
+body {
+    background-color:whitesmoke;
+}
+
+/*background of the bar*/
+.topnav {
+ background-color: darkgray;
+ overflow: hidden;
+ border-radius: 3px;
+ position: relatve;
+ left: 30px;
+ top: 150px;
+}
+
+/*link styling*/
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/*hover color*/
+.topnav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.topnav a:active {
+    background-color: lightcyan;
+    color: black;
+}
+
+
+/*articles styling*/
+.article {
+    border: solid;
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 2px;
+    padding: 4px 6px;
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+.article a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
